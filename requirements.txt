@@ -1,7 +1,6 @@
 aiohttp
 aiofiles
 asyncio
-git+https://github.com/adityacheats/downloader@master
 pyrogram
 TgCrypto
 py-tgcalls
