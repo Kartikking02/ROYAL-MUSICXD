@@ -23,7 +23,7 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 𝙏𝙊 𝘽𝙍𝙊𝘼𝘿𝘾𝘼𝙎𝙏𝙄𝙉𝙂 ...`")
+        wtf = await message.reply("`Stɑɤtɩŋʛ Ɓɤøɑɗƈɑst ...`")
         if not message.reply_to_message:
             await wtf.edit("**__Ƥɭɘɑsɘ Ʀɘƥɭy Ƭø ɑ Mɘssɑʛɘ Ƭø Stɑɤt Ɓɤøɑɗƈɑst ...__**")
             return
@@ -36,4 +36,4 @@ async def broadcast(_, message: Message):
                 await asyncio.sleep(3)
             except:
                 failed=failed+1
-        await message.reply_text(f"`𝙂𝘾𝘼𝙎𝙏 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇` \n\n**𝙎𝙚𝙣𝙩 𝙩𝙤:** `{sent}` CHATS \n**FAILED IN:** {failed} CHATS")
+        await message.reply_text(f"`gcast succesfully` \n\n**sent to:** `{sent}` chats \n**failed in:** {failed} chats")
