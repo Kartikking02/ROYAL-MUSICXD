@@ -99,7 +99,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 𝙁𝙄𝙉𝘿𝙄𝙉𝙂 𝙏𝙃𝙀 𝙎𝙊𝙉𝙂 🎸🎶 𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏..... 𝙆𝙍 𝙏𝙃𝙊𝘿𝘼𝙎𝘼 😒**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐞𝐒𝐩𝐨𝐫𝐭 🚬 ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -119,24 +119,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b> ☺️𝘼𝙙𝙙 𝙢𝙚 𝙖𝙨 𝙖𝙙𝙢𝙞𝙣👨‍💻 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥❤️ </b>")
+                        "<b>𝐀𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰ 𝐞𝐒𝐩𝐨𝐫𝐭 ❤️  𝐌𝐮𝐬𝐢𝐜'𝐗  🚬 ❱</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝘾𝙤𝙣𝙜𝙧𝙖𝙩𝙪𝙡𝙖𝙩𝙞𝙤𝙣𝙨 🥳 𝙈𝙐𝙎𝙄𝘾 𝘼𝙎𝙎𝙄𝙎𝙏𝘼𝙉𝙏 𝙅𝙊𝙄𝙉𝙀𝘿 𝙏𝙃𝙄𝙎 𝙂𝙍𝙊𝙐𝙋✨✨🎸**")
+                        message.chat.id, "** 𝐌𝐮𝐬𝐢𝐜 🎶 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 😎 🤟 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩  𝐅𝐨𝐫 𝐏𝐥𝐚𝐲 ▶ 𝐌𝐮𝐬𝐢𝐜 🎸**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b> 𝙁𝙇𝙊𝙊𝘿 𝙀𝙍𝙍𝙊𝙍 😔 𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏 𝙈𝙊𝙍𝙀.....❗ </b>\n𝙎𝙤𝙧𝙧𝙮 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙛𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙟𝙤𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥😔😔.... 𝙥𝙡𝙚𝙖𝙨𝙚 𝙘𝙝𝙚𝙘𝙠 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙣𝙤𝙩 𝙗𝙖𝙣𝙣𝙚𝙙 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥✨✨🎸 :) ")
+                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'𝐒𝐦𝐎𝐤𝐞𝐫 🚬](https://t.me/Sanki_Owner) ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 😒𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙣𝙤𝙩 𝙟𝙤𝙞𝙣 𝙩𝙝𝙞𝙨 𝙘𝙝𝙖𝙩 ........ 😁𝙨𝙖𝙮 𝙩𝙤 𝙖𝙙𝙢𝙞𝙣 𝙥𝙡𝙚𝙖𝙨𝙚 𝙨𝙚𝙣𝙙 /𝙥𝙡𝙖𝙮 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙛𝙞𝙧𝙨𝙩 𝙩𝙤 𝙟𝙤𝙞𝙣 𝙤𝙪𝙧 𝙍𝙊𝙔𝘼𝙡 𝘼𝙎𝙎𝙄𝙎𝙏𝘼𝙉𝙏🙄🙄 </i>")
+            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'𝐒𝐦𝐎𝐤𝐞𝐫 🚬](https://t.me/Sanki_Owner) ❤️🥀 </i>")
         return
     
     audio = (
@@ -149,12 +149,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"** 𝙎𝙤𝙣𝙜 𝙞𝙨 𝙇𝙊𝙉𝙂𝙀𝙍 𝙏𝙃𝘼𝙉 {DURATION_LIMIT} 𝙈𝙞𝙣𝙪𝙩𝙚𝙨 𝙖𝙧𝙚𝙣'𝙩 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙩𝙤 𝙥𝙡𝙖𝙮▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/2f8b0a508e791cdfce57b.jpg"
+        thumb_name = "https://telegra.ph/file/a67094fc4a99bca08114b.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -164,21 +164,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/ROYALYSERBOT")
+                            url=f"https://t.me/eSport_BOTs")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᏒᎧᎩᏗᏝᏰᎧᎩ🌟",
-                            url=f"https://t.me/ROYALBOY_XD"),
+                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
+                            url=f"https://t.me/Sanki_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏✨✨",
-                            url=f"https://t.me/ROYALUBOT_SUPPORT")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/Smoker_Feelings")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍(LEGEND)❤️",
-                            url=f"https://t.me/KartiK_KinG01")
+                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            url=f"https://t.me/EsportClan")
                    
                 ]
             ]
@@ -217,21 +217,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/ROYALYSERBOT")
+                            url=f"https://t.me/eSport_BOTs")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᏒᎧᎩᏗᏝᏰᎧᎩ🌟",
-                            url=f"https://t.me/ROYALBOY_XD"),
+                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
+                            url=f"https://t.me/Sanki_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏✨✨",
-                            url=f"https://t.me/ROYALUBOT_SUPPORT")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/Smoker_Feelings")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍(LEGEND)👨‍💻",
-                            url=f"https://t.me/KartiK_KinG01")
+                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            url=f"https://t.me/EsportClan")
                    
                 ]
             ]
@@ -239,30 +239,29 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/2f8b0a508e791cdfce57b.jpg"
+            thumb_name = "https://telegra.ph/file/a67094fc4a99bca08114b.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
-                
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/ROYALYSERBOT")
+                            url=f"https://t.me/eSport_BOTs")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᏒᎧᎩᏗᏝᏰᎧᎩ🌟",
-                            url=f"https://t.me/ROYALBOY_XD"),
+                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
+                            url=f"https://t.me/Sanki_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏✨✨",
-                            url=f"https://t.me/ROYALUBOT_SUPPORT")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/Smoker_Feelings")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍(LEGEND)👨‍💻",
-                            url=f"https://t.me/KartiK_KinG01")
+                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            url=f"https://t.me/EsportClan")
                    
                 ]
             ]
@@ -270,7 +269,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**𝙎𝙤𝙣𝙜 𝙞𝙨 𝙇𝙊𝙉𝙂𝙀𝙍 𝙏𝙃𝘼𝙉 {DURATION_LIMIT} 𝙈𝙞𝙣𝙪𝙩𝙚𝙨 𝙖𝙧𝙚𝙣'𝙩 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙩𝙤 𝙥𝙡𝙖𝙮▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
             )
             return
         requested_by = message.from_user.first_name
@@ -279,9 +278,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "𝙒𝙝𝙞𝙘𝙝 𝙨𝙤𝙣𝙜❤️🎶 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙡𝙞𝙨𝙩𝙚𝙣✨✨✨**"
+                "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
-        await lel.edit("**🎵 𝙉𝙊𝙒 𝙋𝙇𝘼𝙔𝙄𝙉𝙂 𝙎𝙊𝙉𝙂𝙎🎶😁 𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙊𝙐𝙍 𝙎𝙀𝙍𝙑𝙄𝘾𝙀....❤️**")
+        await lel.edit("**🎵 𝐌𝐮𝐬𝐢𝐜 🔊 𝐑𝐞𝐚𝐝𝐲 𝐅𝐨𝐫 𝐟𝐮𝐜𝐤 👅 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🥀**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -306,32 +305,31 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸 (･ัω･ั)𝙎𝙥𝙚𝙡𝙡𝙞𝙣𝙜 𝙥𝙧𝙤𝙗𝙡𝙚𝙢 𝙝𝙖𝙞 𝙖𝙖𝙥 𝙘𝙝𝙚𝙘𝙠 𝙠𝙧 𝙡𝙤 𝙚𝙠 𝙗𝙖𝙖𝙧😚.**"
+                "**🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨𝐭 😒 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ° 🥀.**"
             )
             print(str(e))
             return
 
         keyboard = InlineKeyboardMarkup(
             [
-                
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/ROYALYSERBOT")
+                            url=f"https://t.me/eSport_BOTs")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᏒᎧᎩᏗᏝᏰᎧᎩ🌟",
-                            url=f"https://t.me/ROYALBOY_XD"),
+                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
+                            url=f"https://t.me/Sanki_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏✨✨",
-                            url=f"https://t.me/ROYALUBOT_SUPPORT")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/Smoker_Feelings")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍(LEGEND)👨‍💻",
-                            url=f"https://t.me/KartiK_KinG01")
+                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            url=f"https://t.me/EsportClan")
                    
                 ]
             ]
@@ -339,7 +337,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**𝙎𝙤𝙣𝙜 𝙞𝙨 𝙇𝙊𝙉𝙂𝙀𝙍 𝙏𝙃𝘼𝙉 {DURATION_LIMIT} 𝙈𝙞𝙣𝙪𝙩𝙚𝙨 𝙖𝙧𝙚𝙣'𝙩 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙩𝙤 𝙥𝙡𝙖𝙮▶ ❤️🥀**"
+                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
             )
             return
         requested_by = message.from_user.first_name
@@ -353,7 +351,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**𝙎𝙊𝙉𝙂 𝙋𝙊𝙎𝙄𝙏𝙄𝙊𝙉 😁** ** {}**".format(position),
+            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 𝐞𝐒𝐩𝐨𝐫𝐭 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -370,9 +368,10 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**R͆O͆Y͆A͆L͆-M͆U͆S͆I͆C͆X͆D͆ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 𝐞𝐒𝐩𝐨𝐫𝐭 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
         message.chat.title
         ), )
 
     os.remove("final.png")
     return await lel.delete()
+    
