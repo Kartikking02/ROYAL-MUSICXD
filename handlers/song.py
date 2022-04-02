@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply("𝙍𝙊𝙔𝘼𝙇-𝙈𝙐𝙎𝙄𝘾𝙓𝘿🎧 𝙋𝙍𝙊𝘾𝙀𝙎𝙎𝙄𝙉𝙂 𝙏𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙏𝙃𝙀 𝙎𝙊𝙉𝙂.........❤️")
+    m = message.reply("𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 🎧 𝐅𝐫𝐨𝐦 𝐞𝐒𝐩𝐨𝐫𝐭 ❤️ 𝐒𝐞𝐫𝐯𝐞𝐫 🌎...")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -41,17 +41,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "𝙎𝙤𝙣𝙜 🌠 𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙😔 "
+            "𝐒𝐨𝐧𝐠 🥀 𝐍𝐨𝐭 😔 𝐅𝐨𝐮𝐧𝐝."
         )
         print(str(e))
         return
-    m.edit("𝙍𝙊𝙔𝘼𝙇-𝙈𝙐𝙎𝙄𝘾𝙓𝘿🎧 𝙋𝙍𝙊𝘾𝙀𝙎𝙎𝙄𝙉𝙂 𝙏𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙏𝙃𝙀 𝙎𝙊𝙉𝙂.........❤️")
+    m.edit("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ✨ 𝐒𝐨𝐧𝐠 🎸 𝐅𝐫𝐨𝐦 𝐞𝐒𝐩𝐨𝐫𝐭 🥀 𝐒𝐞𝐫𝐯𝐞𝐫 🌎...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**🎵 𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝘿 𝘽𝙔✨- [👨‍💻𝙇𝙀𝙂𝙀𝙉𝘿👨‍💻](https://t.me/KartiK_KinG01) ❤️**"
+        rep = "**🎵 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- ✨ [❛-𝐌𝐫'𝐒𝐦𝐎𝐤𝐞𝐫 🚬](https://t.me/Sanki_Owner) ❤️**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**𝙔𝙤𝙪𝙏𝙪𝙗𝙚 𝙚𝙧𝙧𝙤𝙧 ❌ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀 [👨‍💻 𝙇𝙀𝙂𝙀𝙉𝘿 👨‍💻](https://t.me/KartiK_KinG01) ❤️**")
+        m.edit("**𝐘𝐨𝐮𝐭𝐮𝐛𝐞  𝐄𝐫𝐫𝐨𝐫 ❌ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀 [❛-𝐌𝐫'𝐒𝐦𝐎𝐤𝐞𝐫 🚬](https://t.me/Sanki_Owner) ❤️**")
         print(e)
 
     try:
